@@ -155,3 +155,31 @@ h2 {
 .section-bottom img {
     height: 129px;
 }
+
+.section-bottom span {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+    color: #c5c6ce;
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.33;
+    color: #00001a;
+    padding: 12px 0 9px;
+}
+
+.section-bottom p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.73;
+    color: #5e607a;
+}
+
+.o1, .o2, .o3 {
+    display: flex;
+    gap: 24px;
+}
