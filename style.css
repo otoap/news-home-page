@@ -254,4 +254,23 @@ h3 {
         color: #fffdfa;
         cursor: pointer;
     }
+
+    .section-bottom {
+        margin: 72px 165px 130px;
+        flex-direction: row;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h3:hover {
+        color: #f15d51;
+        cursor: pointer;
+    }
+
+    h2:hover {
+        color: #e9aa52;
+        cursor: pointer;
+    }
 }
