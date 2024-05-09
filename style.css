@@ -1,0 +1,157 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #fffdfa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 16px 0;
+}
+
+.logo {
+    height: 24.5px;
+}
+
+.slide-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fffdfa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 20px 0 24px;
+    width: 75%;
+    height: 100%;
+    justify-content: start;
+}
+
+.close {
+    align-self: end;
+}
+
+nav {
+    align-self: start;
+}
+
+li {
+    font-size: 18px;
+    line-height: 1.33;
+    color: #00001a;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 85px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #00001a91;
+    display: none;
+}
+
+/*top section*/
+.top-section {
+    background-image: url("./images/image-web-3-mobile.jpg");
+    padding-top: 300px;
+    margin: 32.5px 16px 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1;
+    color: #00001a;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.73;
+    color: #5e607a;
+    margin-top: 16px;
+}
+
+button {
+    margin-top: 24px;
+    padding: 13px 35px 11px 31px;
+    background-color: #f15d51;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 4.38px;
+    color: #fffdfa;
+}
+
+.texts {
+    background-color: #fffdfa;
+    padding-top: 24px;
+}
+
+/*bottom section*/
+
+
+
+span {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+    color: #e9aa52;
+    margin-bottom:34px ;
+    display: block;
+}
+
+hr {
+    margin: 29px 0 31px;
+    border: none;
+    height: 1px;
+    background-color: #5e607a;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #fffdfa;
+}
+
+.top {
+    padding: 24px 20px 24px 21px;
+    background-color: #00001a;
+    margin-top: 64px;
+}
+
+.top p {
+    font-size: 15px;
+    line-height: 1.73;
+    color: #c5c6ce;
+    margin-top: 8px;
+}
+
+/*bottom section*/
+
+.section-bottom {
+    margin: 64px 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.section-bottom img {
+    height: 129px;
+}
