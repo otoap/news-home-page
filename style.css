@@ -180,3 +180,78 @@ h3 {
     display: flex;
     gap: 24px;
 }
+
+.navigation {
+    display: none;
+}
+
+@media (min-width: 1440px) {
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: inline-block;
+    }
+
+    header {
+        margin: 89px 165px 0;
+        padding: 0;
+    }
+
+    .logo {
+        height: 39.2px;
+    }
+
+    li:hover {
+        color: #f15d51;
+        cursor: pointer;
+    }
+
+    /*top-section*/
+
+    .top-section {
+        margin: 55.5px 165px 0;
+        background-image: url("./images/image-web-3-desktop.jpg");
+        padding-top: 0;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 1fr 1fr;
+        background-size: 61%;
+    }
+
+    .texts {
+        display: flex;
+        gap: 30px;
+        grid-row-start: 2;
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+
+    .top {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        border-left: 30px solid #fffdfa;
+    }
+
+    h1 {
+        font-size: 56px;
+        flex: 1;
+    }
+
+    .read-more {
+        flex: 1;
+    }
+
+    ul {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    button:hover {
+        background-color: #00001a;
+        color: #fffdfa;
+        cursor: pointer;
+    }
+}
